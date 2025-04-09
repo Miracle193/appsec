@@ -91,6 +91,7 @@ response = requests.get("https://www.example.com")
 
 ## 7. Implement Proper Logging
 a. Logging is essential for debugging but you must make sure not to log sensitive information.
+
 b. Review logs to ensure they don't expose secrets.
 
 ```python
@@ -119,6 +120,7 @@ plaintext = cipher_suite.decrypt(cipher)
 
 ## 9. Limit Permissions
 a. Apply least privilege with your Python apps.
+
 b. Avoid running scripts as root or admin unless necessary.
 
 ## 10. Stay Current
