@@ -14,7 +14,7 @@ Reviewer: Miracle193
 ## STRIDE Threat Categories
 | STRIDE Category | Potential Threat | Affected Component | 
 |---       |---       |---     |
-| Spoofing | • Threat actor impersonates another through:<br>• Reuse of JWTs<br>• Lack of 2FA<br>• Predictable user IDs (e.g. admin email is disclosed). | Authentication Service |
+| Spoofing | Threat actor impersonates another through:<br>• Reuse of JWTs<br>• Lack of 2FA<br>• Predictable user IDs (e.g. admin email is disclosed). | Authentication Service |
 | Tampering | • Manipulation of API requests (e.g. price or cart data)<br>• Insecure direct object references (IDOR) in search URL. | Rest API, Frontend |
 | Repudiation | • Users can delete data without proper logging.<br>• No non-repudiation or audit trails for key actions (e.g., adding item to cart, paying for juice). | Logging System |
 | Information Disclosure | • Accessing sensitive data via insecure API endpoints (e.g., see /ftp).<br>• Accessing user details via admin account (e.g a user’s cart). | Rest API, Database |
